@@ -130,7 +130,7 @@ class _LocationPageState extends State<LocationPage> {
           'Play',
           () async => {
                 distanceInMeters = await Geolocator().distanceBetween(
-                    8.986135, -79.528919, 8.986130, -79.528919),
+                    25.986137, -79.528919, 8.986130, -79.528919),
                 print(distanceInMeters),
                 if (distanceInMeters <= 2)
                   {
